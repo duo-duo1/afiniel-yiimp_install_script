@@ -116,12 +116,12 @@ if [ -z "${DISABLE_FIREWALL:-}" ]; then
 	echo
 	echo -e "$YELLOW ssh port$GREEN OPEN $COL_RESET"
 	echo
-	ufw_allow ufw_allow ssh
+	ufw_allow ssh
 	sleep 0.5
 	echo -e "$YELLOW http port$GREEN OPEN $COL_RESET"
 	echo
 	sleep 0.5
-	ufw_allow ufw_allow http
+	ufw_allow http
 	echo
 	sleep 0.5
 	echo
@@ -138,11 +138,11 @@ if [ -z "${DISABLE_FIREWALL:-}" ]; then
 			echo
 			echo -e $"YELLOW Opening alternate SSH port:$GREEN $SSH_PORT $COL_RESET"
 			echo
-			ufw_allow ufw_allow $SSH_PORT
+			ufw_allow $SSH_PORT
 			sleep 0.5
 			echo
 			echo -e "$YELLOW http port$GREEN open $COL_RESET"
-			ufw_allow ufw_allow http
+			ufw_allow http
 			sleep 0.5
 			echo
 			echo -e "$YELLOW https port$GREEN OPEN $COL_RESET"

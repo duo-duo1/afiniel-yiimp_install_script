@@ -33,8 +33,6 @@ if [ ! -d $STORAGE_ROOT/yiimp/yiimp_setup ]; then
 sudo mkdir -p $STORAGE_ROOT/{wallets,yiimp/{yiimp_setup/log,site/{web,stratum,configuration,crons,log},starts}}
 sudo touch $STORAGE_ROOT/yiimp/yiimp_setup/log/installer.log
 fi
-echo
-echo -e "$GREEN Folders created...$COL_RESET"
 
 # Start the installation.
 source menu.sh

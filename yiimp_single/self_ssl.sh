@@ -24,11 +24,10 @@ echo -e "$YELLOW     <-- Creating initial SSL certificate -->$COL_RESET"
 echo -e "$MAGENTA    <-------------------------------------->$COL_RESET"
 
 # Install openssl.
-
+echo -e "$YELLOW Installing openssl $COL_RESET"
 apt_install openssl
 
 # Create a directory to store TLS-related things like "SSL" certificates.
-
 sudo mkdir -p $STORAGE_ROOT/ssl
 
 # Since we properly seed /dev/urandom in system.sh we should be fine, but I leave
@@ -74,6 +73,6 @@ if [ ! -f /etc/nginx/dhparam.pem ]; then
 		sudo openssl dhparam -out /etc/nginx/dhparam.pem 2048
 fi
 
-echo -e "$GREEN => Initial Self Signed SSL Generation complete <= $COL_RESET"
+echo -e "$GREEN => Initial Self Signed SSL Generation completed <= $COL_RESET"
 set +eu +o pipefail
 cd $HOME/yiimp_install_script/yiimp_single

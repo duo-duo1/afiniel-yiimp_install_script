@@ -11,6 +11,7 @@ if [ -f /etc/yiimpool.conf ]; then
     # Load the old .conf file to get existing configuration options loaded
     # into variables with a DEFAULT_ prefix.
     cat /etc/yiimpool.conf | sed s/^/DEFAULT_/ >/tmp/yiimpool.prev.conf
+    source /etc/functions.sh
     source /tmp/yiimpool.prev.conf
     source /etc/yiimpooldonate.conf
     rm -f /tmp/yiimpool.prev.conf
@@ -23,7 +24,7 @@ if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
     cd $HOME/yiimp_install_script/install
 
     # copy functions to /etc
-    source functions.sh
+    source /etc/functions.sh
     sudo cp -r functions.sh /etc/
     sudo cp -r editconf.py /usr/bin
     sudo chmod +x /usr/bin/editconf.py
@@ -54,7 +55,7 @@ if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
     #check for user
     echo -e "$YELLOW => Installing needed packages for setup to continue  <= $COL_RESET"
     hide_output sudo apt-get -q -q update
-    apt_get_quiet install dialog python3 python3-pip acl nano git apt-transport-https lolcat figlet || exit 1
+    hide_output install dialog python3 python3-pip acl nano git apt-transport-https lolcat figlet || exit 1
 
     # Are we running as root?
     if [[ $EUID -ne 0 ]]; then

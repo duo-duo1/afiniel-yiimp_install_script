@@ -22,15 +22,16 @@ if [[ ("$wireguard" == "true") ]]; then
   source $STORAGE_ROOT/yiimp/.wireguard.conf
 fi
 
+MARIADB_VERSION='10.4'
 echo -e "$MAGENTA    <----------------------------->$COL_RESET"
-echo -e "$YELLOW     <-- Installing MariaDB 10.4 -->$COL_RESET"
+echo -e "$YELLOW     <-- Installing MariaDB $MARIADB_VERSION -->$COL_RESET"
 echo -e "$MAGENTA    <----------------------------->$COL_RESET"
 
-MARIADB_VERSION='10.4'
+# MARIADB_VERSION='10.4'
 sudo debconf-set-selections <<<"maria-db-$MARIADB_VERSION mysql-server/root_password password $DBRootPassword"
 sudo debconf-set-selections <<<"maria-db-$MARIADB_VERSION mysql-server/root_password_again password $DBRootPassword"
 apt_install mariadb-server mariadb-client
-echo -e "$GREEN => MariaDB build complete <= $COL_RESET"
+echo -e "$YELLOW => Installing MariaDB$GREEN $MARIADB_VERSION <= $COL_RESET"
 echo
 echo -e "$YELLOW => Creating DB users for YiiMP <= $COL_RESET"
 
@@ -52,8 +53,8 @@ else
 fi
 
 echo -e "$GREEN => Database creation complete <= $COL_RESET"
-
-echo -e "$YELLOW => Creating my.cnf <= $COL_RESET"
+echo
+echo -e "$YELLOW =>$GREEN Creating$RED my.cnf <= $COL_RESET"
 
 if [[ ("$wireguard" == "false") ]]; then
   echo '[clienthost1]
@@ -90,7 +91,8 @@ fi
 
 sudo chmod 0600 $STORAGE_ROOT/yiimp/.my.cnf
 
-echo -e "$YELLOW => Importing YiiMP Default database values <= $COL_RESET"
+echo
+echo -e "$YELLOW => Importing YiiMP Default Database Values <= $COL_RESET"
 cd $STORAGE_ROOT/yiimp/yiimp_setup/yiimp/sql
 # import SQL dump
 sudo zcat 2020-11-10-yaamp.sql.gz | sudo mysql -u root -p"${DBRootPassword}" "${YiiMPDBName}"

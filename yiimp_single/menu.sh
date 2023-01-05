@@ -7,7 +7,11 @@
 
 source /etc/functions.sh
 
+<<<<<<< HEAD
 RESULT=$(dialog --stdout --default-item 1 --title "Yiimpool Yiimp installer v0.6.9" --menu "Choose one" -1 60 6 \
+=======
+RESULT=$(dialog --stdout --default-item 1 --title "Yiimpool Yiimp installer v0.7.0" --menu "Choose one" -1 60 6 \
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 ' ' "- Do want to install yiimp with wireguard?  -" \
 1 "No" \
 2 "Yes" \

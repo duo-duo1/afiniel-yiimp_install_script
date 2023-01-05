@@ -240,4 +240,15 @@ sudo cp -r main.php /home/crypto-data/yiimp/site/web/yaamp/ui
 sudo cp -r exbitron_trading.php /home/crypto-data/yiimp/site/web/yaamp/core/trading
 sudo cp -r coin_form.php /home/crypto-data/yiimp/site/web/yaamp/modules/site
 
+# Update yiimpUI
+cd $HOME/yiimp_install_script/yiimp_single/yiimp_confs
+sudo rm -rf $STORAGE_ROOT/yiimp/site/web/images
+sudo rm -r $STORAGE_ROOT/yiimp/site/web/yaamp/modules/site/index.php
+sudo rm -r $STORAGE_ROOT/yiimp/site/web/yaamp/ui/main.php
+sudo rm -rf $STORAGE_ROOT/yiimp/site/web/yaamp/ui/css
+
+sudo cp -r images $STORAGE_ROOT/yiimp/site/web/
+sudo cp -r index.php $STORAGE_ROOT/yiimp/site/web/yaamp/modules/site
+sudo cp -r css $STORAGE_ROOT/yiimp/site/web/yaamp/ui/
+
 cd $HOME/yiimp_install_script/yiimp_single

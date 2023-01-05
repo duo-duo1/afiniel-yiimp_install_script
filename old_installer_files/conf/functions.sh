@@ -80,7 +80,11 @@ function install_end_message {
 	figlet -f slant -w 100 "Complete!"
 
 	echo -e "$CYAN  --------------------------------------------------------------------------- 	  		$COL_RESET"
+<<<<<<< HEAD
 	echo -e "$YELLOW  | Version:$GREEN v0.7.0                                                 |				$COL_RESET"
+=======
+	echo -e "$YELLOW  | Version:$GREEN v0.6.8                                                 |				$COL_RESET"
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
 	echo -e "$YELLOW Yiimp Installer Script Fork By Afiniel https://github.com/afiniel/yiimp_install_script $COL_RESET"
 	echo -e "$CYAN  --------------------------------------------------------------------------- 	  		$COL_RESET"
 	echo -e "$YELLOW   Your mysql information (login/Password) is saved in:$RED ~/.my.cnf					$COL_RESET"
@@ -115,7 +119,11 @@ function term_art {
 	echo "   ╚═╝   ╚═╝╚═╝╚═╝     ╚═╝╚═╝      ╚═════╝  ╚═════╝ ╚══════╝ "
 	echo -e "$CYAN   ---------------|----------------------- 	  											$COL_RESET"
 	echo -e "$YELLOW  Yiimp Installer Script Fork By Afiniel!												$COL_RESET"
+<<<<<<< HEAD
 	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.7.0 														$COL_RESET"
+=======
+	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.6.8 														$COL_RESET"
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
 	echo -e "$CYAN   -----------------|---------------------------------------------------- 	  			$COL_RESET"
 	echo -e "$YELLOW  This script will install all the dependencies and will install Yiimp.					$COL_RESET"
 	echo -e "$YELLOW  It will also install a MySQL database and a Web server.								$COL_RESET"
@@ -138,7 +146,11 @@ function term_yiimpool {
 	echo "   ╚═╝   ╚═╝╚═╝╚═╝     ╚═╝╚═╝      ╚═════╝  ╚═════╝ ╚══════╝ "
 	echo -e "$CYAN   -----------------|--------------------- 	  											$COL_RESET"
 	echo -e "$YELLOW  Yiimp Installer Script Fork By Afiniel!												$COL_RESET"
+<<<<<<< HEAD
 	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.7.0 											$COL_RESET"
+=======
+	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.6.8 											$COL_RESET"
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
 	echo -e "$CYAN   -----------------|--------------------- 	  			$COL_RESET"
 	echo
 
@@ -190,14 +202,22 @@ function hide_output {
 function last_words {
 	echo "<-------------------------------------|---------------------------------------->"
 	echo
+<<<<<<< HEAD
 	echo -e "$YELLOW Thank you for using the Yiimpool Installer $GREEN v0.7.0!             $COL_RESET"
+=======
+	echo -e "$YELLOW Thank you for using the Yiimpool Installer $GREEN v0.6.8!             $COL_RESET"
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
 	echo
 	echo -e "$YELLOW To run this installer anytime simply type: $GREEN yiimpool            $COL_RESET"
 	echo -e "$YELLOW Donations for continued support of this script are welcomed at:       $COL_RESET"
 	echo "<-------------------------------------|--------------------------------------->"
 	echo -e "$YELLOW                     Donate Wallets:                                   $COL_RESET"
 	echo "<-------------------------------------|--------------------------------------->"
+<<<<<<< HEAD
 	echo -e "$YELLOW Thank you for using Yiimp Install Script v0.7.0 fork by Afiniel!      $COL_RESET"
+=======
+	echo -e "$YELLOW Thank you for using Yiimp Install Script v0.6.8 fork by Afiniel!      $COL_RESET"
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
 	echo
 	echo -e "$YELLOW =>  To run this installer anytime simply type:$GREEN yiimpool         $COL_RESET"
 	echo -e "$YELLOW =>  Do you want to support me? Feel free to use wallets below:        $COL_RESET"

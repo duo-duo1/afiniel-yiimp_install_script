@@ -6,7 +6,11 @@
 source /etc/functions.sh
 source /etc/yiimpoolversion.conf
 
+<<<<<<< HEAD
 RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Yiimpool Installer v0.7.0" --menu "Choose one" -1 60 16 \
+=======
+RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Yiimpool Installer v0.6.8" --menu "Choose one" -1 60 16 \
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
 ' ' "-  Yiimp  -" \
 1 "Start Yiimp Install" \
 ' ' "- Daemon Wallet Builder -" \

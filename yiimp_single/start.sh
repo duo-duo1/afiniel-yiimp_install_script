@@ -68,7 +68,11 @@ if [[ ("$UsingDomain" == "yes") ]]; then
   source /etc/functions.sh
   term_yiimpool
   echo -e "$CYAN<-----------------------------------------------------------------------------> $COL_RESET"
+<<<<<<< HEAD
+  echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.7.0 $YELLOW fork by Afiniel!     $COL_RESET"
+=======
   echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.6.8 $YELLOW fork by Afiniel!     $COL_RESET"
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
   echo
   echo -e "$YELLOW =>  To run this installer anytime simply type:$GREEN yiimpool         $COL_RESET"
   echo -e "$CYAN<-----------------------------------------------------------------------------> $COL_RESET"
@@ -101,7 +105,11 @@ else
   source /etc/functions.sh
   term_yiimpool
   echo -e "$CYAN<----------------------------------------------------------------------------->   $COL_RESET"
+<<<<<<< HEAD
+  echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.7.0 $YELLOW fork by Afiniel! $COL_RESET"
+=======
   echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.6.8 $YELLOW fork by Afiniel! $COL_RESET"
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
   echo
   echo -e "$YELLOW =>  To run this installer anytime simply type:$GREEN yiimpool                  $COL_RESET"
   echo -e "$CYAN<----------------------------------------------------------------------------->   $COL_RESET"

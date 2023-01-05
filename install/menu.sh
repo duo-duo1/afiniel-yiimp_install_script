@@ -7,15 +7,7 @@
 
 source /etc/functions.sh
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Yiimpool Menu v0.6.9" --menu "Choose one" -1 60 16 \
-=======
-RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Yiimpool Menu v0.7.0" --menu "Choose one" -1 60 16 \
->>>>>>> parent of f03ad6d (Set tag v0.7.1)
-=======
-RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Yiimpool Menu v0.7.0" --menu "Choose one" -1 60 16 \
->>>>>>> parent of f03ad6d (Set tag v0.7.1)
+RESULT=$(dialog --stdout --nocancel --default-item 1 --title "Yiimpool Menu v0.6.8" --menu "Choose one" -1 60 16 \
 ' ' "- Install Yiimp  -" \
 1 "YiiMP Single Server" \
 ' ' "- Daemon Wallet Builder -" \

@@ -14,7 +14,11 @@ source /etc/yiimpoolversion.conf
 
 # Welcome
 <<<<<<< HEAD
+<<<<<<< HEAD
 message_box "Yiimp Installer v0.6.9" \
+=======
+message_box "Yiimp Installer v0.7.0" \
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
 message_box "Yiimp Installer v0.7.0" \
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)
@@ -23,7 +27,11 @@ message_box "Yiimp Installer v0.7.0" \
 \n\nNOTE: You should only install this on a brand new Ubuntu 16.04 or Ubuntu 18.04 installation."
 # Root warning message box
 <<<<<<< HEAD
+<<<<<<< HEAD
 message_box "Yiimp Installer v0.6.9" \
+=======
+message_box "Yiimp Installer v0.7.0" \
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
 message_box "Yiimp Installer v0.7.0" \
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)

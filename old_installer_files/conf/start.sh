@@ -76,7 +76,11 @@ if [[ ("$FIRST_TIME_SETUP" == "1") ]]; then
     if [[ $EUID -ne 0 ]]; then
         # Welcome
 <<<<<<< HEAD
+<<<<<<< HEAD
         message_box "Yiimp Installer v0.6.9" \
+=======
+        message_box "Yiimp Installer v0.7.0" \
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
         message_box "Yiimp Installer v0.7.0" \
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)

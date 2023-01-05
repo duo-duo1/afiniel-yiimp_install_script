@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h1 align="center"> Yiimpool Yiimp Install Scrypt v0.6.9 With DaemonBuilder And Addport Support (update 2023-01-04) </h1>
+=======
+<h1 align="center"> Yiimpool Yiimp Install Scrypt v0.7.0 With DaemonBuilder And Addport Support (update 2023-01-05) </h1>
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
 <h1 align="center"> Yiimpool Yiimp Install Scrypt v0.7.0 With DaemonBuilder And Addport Support (update 2023-01-05) </h1>
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)

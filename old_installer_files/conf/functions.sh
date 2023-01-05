@@ -81,7 +81,11 @@ function install_end_message {
 
 	echo -e "$CYAN  --------------------------------------------------------------------------- 	  		$COL_RESET"
 <<<<<<< HEAD
+<<<<<<< HEAD
 	echo -e "$YELLOW  | Version:$GREEN v0.6.9                                                 |				$COL_RESET"
+=======
+	echo -e "$YELLOW  | Version:$GREEN v0.7.0                                                 |				$COL_RESET"
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
 	echo -e "$YELLOW  | Version:$GREEN v0.7.0                                                 |				$COL_RESET"
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)
@@ -120,7 +124,11 @@ function term_art {
 	echo -e "$CYAN   ---------------|----------------------- 	  											$COL_RESET"
 	echo -e "$YELLOW  Yiimp Installer Script Fork By Afiniel!												$COL_RESET"
 <<<<<<< HEAD
+<<<<<<< HEAD
 	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.6.9 														$COL_RESET"
+=======
+	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.7.0 														$COL_RESET"
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
 	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.7.0 														$COL_RESET"
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)
@@ -147,7 +155,11 @@ function term_yiimpool {
 	echo -e "$CYAN   -----------------|--------------------- 	  											$COL_RESET"
 	echo -e "$YELLOW  Yiimp Installer Script Fork By Afiniel!												$COL_RESET"
 <<<<<<< HEAD
+<<<<<<< HEAD
 	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.6.9 											$COL_RESET"
+=======
+	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.7.0 											$COL_RESET"
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
 	echo -e "$YELLOW  Version:$COL_RESET $GREEN v0.7.0 											$COL_RESET"
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)
@@ -203,7 +215,11 @@ function last_words {
 	echo "<-------------------------------------|---------------------------------------->"
 	echo
 <<<<<<< HEAD
+<<<<<<< HEAD
 	echo -e "$YELLOW Thank you for using the Yiimpool Installer $GREEN v0.6.9!             $COL_RESET"
+=======
+	echo -e "$YELLOW Thank you for using the Yiimpool Installer $GREEN v0.7.0!             $COL_RESET"
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
 	echo -e "$YELLOW Thank you for using the Yiimpool Installer $GREEN v0.7.0!             $COL_RESET"
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)
@@ -214,7 +230,11 @@ function last_words {
 	echo -e "$YELLOW                     Donate Wallets:                                   $COL_RESET"
 	echo "<-------------------------------------|--------------------------------------->"
 <<<<<<< HEAD
+<<<<<<< HEAD
 	echo -e "$YELLOW Thank you for using Yiimp Install Script v0.6.9 fork by Afiniel!      $COL_RESET"
+=======
+	echo -e "$YELLOW Thank you for using Yiimp Install Script v0.7.0 fork by Afiniel!      $COL_RESET"
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
 	echo -e "$YELLOW Thank you for using Yiimp Install Script v0.7.0 fork by Afiniel!      $COL_RESET"
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)

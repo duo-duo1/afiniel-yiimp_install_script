@@ -69,7 +69,11 @@ if [[ ("$UsingDomain" == "yes") ]]; then
   term_yiimpool
   echo -e "$CYAN<-----------------------------------------------------------------------------> $COL_RESET"
 <<<<<<< HEAD
+<<<<<<< HEAD
   echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.6.9 $YELLOW fork by Afiniel!     $COL_RESET"
+=======
+  echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.7.0 $YELLOW fork by Afiniel!     $COL_RESET"
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
   echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.7.0 $YELLOW fork by Afiniel!     $COL_RESET"
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)
@@ -106,7 +110,11 @@ else
   term_yiimpool
   echo -e "$CYAN<----------------------------------------------------------------------------->   $COL_RESET"
 <<<<<<< HEAD
+<<<<<<< HEAD
   echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.6.9 $YELLOW fork by Afiniel! $COL_RESET"
+=======
+  echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.7.0 $YELLOW fork by Afiniel! $COL_RESET"
+>>>>>>> parent of f03ad6d (Set tag v0.7.1)
 =======
   echo -e "$YELLOW Thank you for using Yiimp Install Script$GREEN v0.7.0 $YELLOW fork by Afiniel! $COL_RESET"
 >>>>>>> parent of f03ad6d (Set tag v0.7.1)

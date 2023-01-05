@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+<h1 align="center"> Yiimpool Yiimp Install Scrypt v0.7.0 With DaemonBuilder And Addport Support (update 2023-01-05) </h1>
+=======
 <h1 align="center"> Yiimpool Yiimp Install Scrypt v0.6.8 With DaemonBuilder And Addport Support (update 2023-01-04) </h1>
+>>>>>>> 890bfca2c79158365b28a5f445df81458323eafd
 
 <img alt="Discord" src="https://img.shields.io/discord/904564600354254898?label=Discord"><img alt="GitHub issues" src="https://img.shields.io/github/issues/afiniel/yiimp_install_script" ><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/afiniel/yiimp_install_script">
 

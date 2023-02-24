@@ -284,7 +284,7 @@ blckntifypass=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 
 # Compil Blocknotify
 cd ~
-hide_output git clone https://github.com/afiniel/yiimp.git -b next
+hide_output git clone https://github.com/Kudaraidee/yiimp.git -b next
 cd $HOME/yiimp/blocknotify
 sudo sed -i 's/tu8tu5/'$blckntifypass'/' blocknotify.cpp
 hide_output sudo make -j8
